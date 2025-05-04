@@ -1,68 +1,136 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BTC300K - Meme Token Komunitas</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTC300K - Token Komunitas</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9 url('https://gateway.pinata.cloud/ipfs/bafybeifltubhmuc5qkbdnfg7yug5qmn3zho3pnm2q5er6rtj3fsvpstgt4') no-repeat center center fixed;
+      background-size: contain;
+      color: #333;
+    }
+    header {
+      background-color: rgba(17, 24, 39, 0.9); /* transparan gelap */
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #38bdf8;
+      text-decoration: none;
+    }
+    section {
+      background-color: rgba(255, 255, 255, 0.9); /* semi transparan untuk baca teks lebih jelas */
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3rem;
+    }
+    .button-group a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.7rem 1.2rem;
+      background: #0ea5e9;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    footer {
+      background: #1f2937;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    .tokenomics-table, .features-list {
+      margin-top: 1rem;
+    }
+    .tokenomics-table td {
+      padding: 0.5rem 0;
+    }
+    ul {
+      margin-top: 0.5rem;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>BTC300K – Meme Token untuk Pecinta Bitcoin</h1>
-        <p>Simbol komunitas global yang percaya bahwa Bitcoin suatu hari akan mencapai $300.000</p>
-        <div class="buttons">
-            <a href="https://github.com/FiboLoop/whitepaper_btc300k/blob/main/BTC300K_Whitepaper.pdf" target="_blank">📄 Lihat Whitepaper</a>
-            <a href="https://t.me/+AU0FWFuqps8zYzdl" target="_blank">💬 Gabung Telegram</a>
-            <a href="https://x.com/300k_btc" target="_blank">🐦 Ikuti di X</a>
-        </div>
-    </header>
 
-    <section>
-        <h2>Tentang Proyek</h2>
-        <p>BTC300K adalah token meme komunitas berbasis Binance Smart Chain (BSC)...</p>
-        <ul>
-            <li><strong>Visi:</strong> Menjadi simbol cinta & harapan untuk Bitcoin</li>
-            <li><strong>Misi:</strong> Menghubungkan komunitas, membangun ekosistem meme</li>
-        </ul>
-    </section>
+  <header>
+    <h1>BTC300K – Meme Token Pecinta Bitcoin</h1>
+    <p>Simbol komunitas global yang percaya bahwa Bitcoin akan mencapai $300.000</p>
+    <div class="button-group">
+      <a href="https://github.com/FiboLoop/whitepaper_btc300k/blob/main/BTC300K_Whitepaper.pdf" target="_blank">📄 Whitepaper</a>
+      <a href="https://t.me/+AU0FWFuqps8zYzdl" target="_blank">💬 Telegram</a>
+      <a href="https://x.com/300k_btc?t=uzUup_r-qAmXYIxnz67fcw&s=09" target="_blank">🐦 Akun X</a>
+    </div>
+  </header>
 
-    <section>
-        <h2>Tokenomics</h2>
-        <ul>
-            <li>🪙 Total Supply: 63,000,000 BTC300K</li>
-            <li>🔢 Desimal: 8</li>
-            <li>📛 Simbol: 300K</li>
-            <li>📃 Standar: BEP-20</li>
-        </ul>
-    </section>
+  <section>
+    <h2>Tentang BTC300K</h2>
+    <p>BTC300K adalah token meme komunitas yang lahir dari impian bersama bahwa Bitcoin suatu hari akan mencapai $300.000. Ini bukan instrumen investasi, melainkan simbol harapan dan semangat komunitas kripto global.</p>
+    <ul>
+      <li><strong>Visi:</strong> Simbol cinta & harapan untuk Bitcoin</li>
+      <li><strong>Misi:</strong> Membangun komunitas global yang menyenangkan dan edukatif</li>
+    </ul>
+  </section>
 
-    <section>
-        <h2>Smart Contract</h2>
-        <ul>
-            <li>✅ Pajak Transaksi: 1%</li>
-            <li>✅ Pausable, whitelist, limit transaksi 2%</li>
-            <li>🔐 Kontrak: 0xEd8D1c42A88e9d4dD5175F3CaDBA833b26991b28</li>
-        </ul>
-    </section>
+  <section>
+    <h2>Tokenomics</h2>
+    <table class="tokenomics-table">
+      <tr><td>🔹 Total Supply:</td><td>63.000.000</td></tr>
+      <tr><td>🔹 Simbol:</td><td>300K</td></tr>
+      <tr><td>🔹 Desimal:</td><td>8</td></tr>
+      <tr><td>🔹 Pajak Transaksi:</td><td>1%</td></tr>
+    </table>
+    <h3>Distribusi</h3>
+    <ul>
+      <li>30% Liquidity Pool – dikunci 12 bulan</li>
+      <li>20% Marketing & Komunitas</li>
+      <li>20% Presale Komunitas</li>
+      <li>10% Tim – dikunci & dilepas bertahap</li>
+      <li>20% Cadangan Komunitas</li>
+    </ul>
+  </section>
 
-    <section>
-        <h2>Roadmap</h2>
-        <ul>
-            <li><strong>Q2 2025:</strong> Rilis whitepaper, listing DEX</li>
-            <li><strong>Q3 2025:</strong> Kampanye meme, airdrop</li>
-            <li><strong>Q4 2025:</strong> Rilis staking, eksplorasi CEX</li>
-        </ul>
-    </section>
+  <section>
+    <h2>Fitur Kontrak Pintar</h2>
+    <ul class="features-list">
+      <li>✅ Pajak 1% ditransfer ke taxWallet</li>
+      <li>✅ Limit transaksi maksimum: 2%</li>
+      <li>✅ Fitur pause dan whitelist</li>
+      <li>✅ Finalisasi & renounce ownership</li>
+      <li>✅ Kompatibel MetaMask & TrustWallet</li>
+    </ul>
+    <p><strong>Alamat Kontrak:</strong> 0xEd8D1c42A88e9d4dD5175F3CaDBA833b26991b28</p>
+  </section>
 
-    <section>
-        <h2>Tim & Kontak</h2>
-        <p>Tim anonim sesuai prinsip desentralisasi.</p>
-        <p>Email & kontak melalui Telegram atau X.</p>
-    </section>
+  <section>
+    <h2>Roadmap</h2>
+    <ul>
+      <li><strong>Q2 2025:</strong> Peluncuran sosial, whitepaper, presale</li>
+      <li><strong>Q3 2025:</strong> Kampanye meme, airdrop</li>
+      <li><strong>Q4 2025:</strong> Fitur staking, eksplorasi CEX</li>
+    </ul>
+  </section>
 
-    <footer>
-        <p>Disclaimer: BTC300K bukan produk investasi. Bersifat eksperimental & komunitas.</p>
-    </footer>
+  <section>
+    <h2>Disclaimer</h2>
+    <p>BTC300K bukan produk investasi. Proyek ini bersifat komunitas dan eksperimental. Partisipasi adalah atas kesadaran dan risiko pribadi.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 BTC300K – Dibangun oleh komunitas, untuk komunitas.</p>
+  </footer>
+
 </body>
 </html>
